@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Çizgi Filmi</title>
+</head>
+<body>
+    <header style="background-color: #218ccfcc;">
+        <img src="images/pokemonlogo.svg" alt="Pokemon Logo">
+        <h1>Pokemon Çizgi Filmi</h1>
+        <p><b>Gotta Catch 'Em All! </b>
+        <img src="images/pokeball.png" alt="Pokeball" width="20px"></p>
+        
+        <nav>
+            <!--Bu kısımların sayfaları eklenmeli-->
+            <ul>
+                <li><a href="#home" style="text-decoration: none; color:black;">Anasayfa</a></li>
+                <li><a href="#characters" style="text-decoration: none; color:black;">Karakterler</a></li>
+                <li><a href="#episodes" style="text-decoration: none; color:black;">Bölümler</a></li>
+                <li><a href="#gallery" style="text-decoration: none; color:black">Galeri</a></li>
+                <li><a href="#contact" style="text-decoration: none; color:black;">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Pokemon, veya tam adıyla "Pocket Monsters" olan bir anime televizyon serisidir. OLM, Inc. tarafından hazırlanan bu dizi, Nisan 1997'den bu yana devam etmektedir.</p>
+
+            <p>Anime serisi, uluslararası alanda toplamda 25 sezon olarak yayınlanmıştır. Hikayeler, genç bir Pokemon eğitmeni olan Ash Ketchum'un maceralarını anlatmaktadır. Pikachu adlı Pokemon'uyla birlikte çeşitli Pokemon dünyası bölgelerini dolaşarak ve Pokemon Ligi turnuvalarında yarışarak bir "Pokemon Ustası" olma yolculuğuna çıkarlar.</p>
+        </section>
+
+        <section id="story">
+            <h3>Konu</h3>
+            <p>Ash Ketchum, geleceğin büyük pokemon eğitmeni olmaya kararlıdır. 10 yaşına bastığı gün, Pokemon macerasına başlamak için sabırsızlanmaktadır. Ancak o sabah geç kaldığı için telaş içinde Profesör Oak'ın laboratuvarına koşar. Profesör Oak, Pokemonlar hakkında derin bir bilgiye sahip bir akademisyen olarak tanınır. Fakat Ash laboratuvara ulaştığında tüm Pokemonların alındığını ve sadece asi Pikachu'nun kaldığını öğrenir. Pikachu, hiçbir kurala uymayan ve Poketopu'na bile girmeyen bir Pokémon'dur. Ash, başka seçeneği olmadığı için Pikachu'yu kabul eder.</p>
+
+            <p>Dışarı çıktığında, rakibi Gary, Pokemonunu almış ve kendini övüyordur. Gary'nin yola çıkmasının ardından, Ash kararlılıkla dünyanın en büyük Pokemon eğitmeni olma hedefini koyar. Ancak, Profesör Oak, ondan bir ricada bulunur ve ona Pokedex'i verir. Ash, Pokedex'i tamamlaması için yeni bir görevle karşı karşıyadır ve bu görevi kabul eder.</p>
+
+            <p>Bu noktada, Gary, Ash'in en büyük rakibi haline gelirken, Ash Pokemon dünyasında bir kahraman olma yolunda ilerlemeye başlamıştır.</p><br>
+            <img src="images/ashandpikachu.png" alt="Ash Ketchum and Pikachu" width="200px">
+            <img src="images/poketeam.png" alt="Ash, Misty, Brook" width="250px">
+
+        </section>
+    
+        <section id="characters">
+            <h2>Karakterler</h2>
+            <p>Bazı ünlü Pokemon karakterleri:</p>
+            <ul>
+                <li>Pikachu</li>
+                <li>Charmander</li>
+                <li>Bulbasaur</li>
+                <li>Squirtle</li>
+            </ul><br>
+            <!--Bu kısımlar diğer sayfalara aktarılacak, başka örnekler eklenecetir.-->
+        </section>
+    
+        <section id="episodes">
+            <h2>Bölümler</h2>
+            <p>En <em><u>sevilen</u></em> bölümlerden bazıları:</p>
+            <ol>
+                <li><b>Bölüm 1:</b> Pokemon'un Başlangıcı</li>
+                <li><b>Bölüm 20:</b> Pikachu ve Arkadaşları</li>
+                <!-- Diğer bölümler buraya eklenebilir -->
+            </ol><br>
+        </section>
+    
+        <section id="gallery">
+            <h2>Galeri</h2>
+            <table>
+                <tr>
+                    <th>Pikachu</th>
+                    <th>Charmander</th>
+                    <th>Bulbasaur</th>
+                </tr>
+                <td><img src="images/pikachu.png" alt="pikachu" width="200"></td>
+                <td><img src="images/charmander.png" alt="charmander" width="200"></td>
+                <td><img src="images/bulbasaur.png" alt="bulbasaur" width="200"></td>
+            </table>
+            <br>
+        </section>
+
+        <section id="form">
+            <h3>Pokemon'unu seç:</h3>
+                <form>
+                    <input type="radio" id="pokemon1" name="fav_pokemon" value="Bulbasaur">
+                    <label for="pokemon1">Bulbasaur</label><br> 
+                    <input type="radio" id="pokemon2" name="fav_pokemon" value="Charmander">
+                    <label for="pokemon2">Charmander/label><br>
+                    <input type="radio" id="pokemon3" name="fav_pokemon" value="Squirtle">
+                    <label for="pokemon3">Squirtle</label>
+
+                    <br>                
+                    <br>
+                    <label for="fname">İsim:</label>
+                    <input type="text" id="fname" name="fname">
+                        <label for="lname">Soyisim:</label>
+                    <input type="text" id="lname" name="lname">
+                    <br><br>
+                    <textarea name="message" rows="3"></textarea>
+                    <input type="submit" value="Submit">
+                    <br><br>
+
+                </form> 
+
+        </section>
+
+    
+        <section id="contact">
+            <h2>İletişim</h2>
+            <p>Bizimle iletişime geçin: info@pokemon.com</p><br>
+        </section>
+
+    </main>
+
+    <footer style="background-color: #218ccfcc;">
+        <p>&copy; 2023 Pokemon Çizgi Filmi</p>
+    </footer>
+</body>
+</html>
