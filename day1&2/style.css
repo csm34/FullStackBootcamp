@@ -1,0 +1,195 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+p {
+    text-indent: 25px;
+}
+header {
+    background-color: #218ccfcc;
+    text-align: center;
+    align-items: center;
+}
+.logo {
+    margin-top: 10px;
+}
+.navbar {
+    margin-bottom: 30px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+.navbar ul li a:hover {
+    background-color: lightblue;
+}
+.title {
+    text-align: center;
+    margin: 30px;
+}
+
+.content {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.content-parag,
+.content-pic {
+    float: left;
+    position: relative;
+}
+
+
+.card,
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.card img{
+    width: 70%;
+    border-radius: 6px;
+}
+
+.card2 img{
+    padding: 100px;
+    width: 70%;
+    border-radius: 6px;
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content-parag,
+.content-pic {
+    float: left;
+    position: relative;
+}
+
+.character {
+    text-align: center;
+    align-items: center;
+}
+
+.table-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.photo,
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.photo img{
+    width: 70%;
+    border-radius: 6px;
+}
+
+.your-pokemon {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form-left,
+.form-right {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.form-left,
+.form-right{
+    flex: 1;
+    width: 100%;
+}
+
+
+input[type="radio"] {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #8a2727f5;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #218ccfcc;
+}
+
+#contact {
+    text-align: center;
+}
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon Çizgi Filmi</title>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <img class="logo" src="images/pokemonlogo.svg" alt="Pokemon Logo">
+            <h1>Pokemon Çizgi Filmi</h1>
+            <p><b>Gotta Catch 'Em All!</b>
+            <img src="images/pokeball.png" alt="Pokeball" width="20px"></p><br>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#characters">Karakterler</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#form">Pokemonun</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <div class="title">
+                <h2>Hoş Geldiniz!</h2>
+            </div>            
+            <div class="content">
+                <div class="card">
+                    <p>Pokemon, veya tam adıyla "Pocket Monsters" olan bir anime televizyon serisidir. OLM, Inc. tarafından hazırlanan bu dizi, Nisan 1997'den bu yana devam etmektedir.</p>
+
+                    <p>Anime serisi, uluslararası alanda toplamda 25 sezon olarak yayınlanmıştır. Hikayeler, genç bir Pokemon eğitmeni olan Ash Ketchum'un maceralarını anlatmaktadır. Pikachu adlı Pokemon'uyla birlikte çeşitli Pokemon dünyası bölgelerini dolaşarak ve Pokemon Ligi turnuvalarında yarışarak bir "Pokemon Ustası" olma yolculuğuna çıkarlar.</p>
+                </div>
+                
+                <div class="card">
+                    <img src="images/poketeam.png" alt="Ash, Misty, Brook" width="250px">
+                </div>
+            </div>    
+        </section>
+
+        <section id="story">
+            <div class="content">
+                <div class="card">
+                    <h3 class="title">Konu</h3>
+                    <p>Ash Ketchum, geleceğin büyük pokemon eğitmeni olmaya kararlıdır. 10 yaşına bastığı gün, Pokemon macerasına başlamak için sabırsızlanmaktadır. Ancak o sabah geç kaldığı için telaş içinde Profesör Oak'ın laboratuvarına koşar. Profesör Oak, Pokemonlar hakkında derin bir bilgiye sahip bir akademisyen olarak tanınır. Fakat Ash laboratuvara ulaştığında tüm Pokemonların alındığını ve sadece asi Pikachu'nun kaldığını öğrenir. Pikachu, hiçbir kurala uymayan ve Poketopu'na bile girmeyen bir Pokémon'dur. Ash, başka seçeneği olmadığı için Pikachu'yu kabul eder.</p>
+
+                    <p>Dışarı çıktığında, rakibi Gary, Pokemonunu almış ve kendini övüyordur. Gary'nin yola çıkmasının ardından, Ash kararlılıkla dünyanın en büyük Pokemon eğitmeni olma hedefini koyar. Ancak, Profesör Oak, ondan bir ricada bulunur ve ona Pokedex'i verir. Ash, Pokedex'i tamamlaması için yeni bir görevle karşı karşıyadır ve bu görevi kabul eder.</p>
+
+                    <p>Bu noktada, Gary, Ash'in en büyük rakibi haline gelirken, Ash Pokemon dünyasında bir kahraman olma yolunda ilerlemeye başlamıştır.</p><br>
+                </div>
+                <div class="card2">
+                    <img src="images/ashandpikachu.png" alt="Ash Ketchum and Pikachu">
+                </div>
+            </div>
+        </section>
+    
+        <section id="characters">
+            <div class="character">
+                <h2 class="title">Karakterler</h2>
+                <p><u>Bazı ünlü Pokemon karakterleri</u></p>
+                <div class="table-container">
+                        <table>
+                        <tr>
+                            <th>Pichu</th>
+                            <th>Charmander</th>
+                            <th>Bulbasaur</th>
+                        </tr>
+                        <tr>
+                            <td>Pikachu</td>
+                            <td>Charmeleon</td>
+                            <td>Ivysaur</td>
+                        </tr>
+                        <tr>
+                            <td>Raichu</td>
+                            <td>Charizard</td>
+                            <td>Venusaur</td>
+                        </tr> 
+                    </table> <br>
+                </div>               
+            </div>
+        </section>
+    
+    
+        <section id="gallery">
+            <h2 class="title">Galeri</h2>
+            <div class="pictures">
+                <div class="photo">
+                    <h3>Pikachu</h3>
+                    <img src="images/pikachu.png" alt="pikachu">
+                </div>
+                <div class="photo">
+                    <h3>Charmander</h3>
+                    <img src="images/charmander.png" alt="charmander">
+                </div>
+                <div class="photo">
+                    <h3>Bulbasaur</h3>
+                    <img src="images/bulbasaur.png" alt="bulbasaur">
+                </div>
+                <div class="photo">
+                    <h3>Squirtle</h3>
+                    <img src="images/squirtle.png" alt="squirtle">   
+                </div>
+            </div>
+            
+            <br>
+        </section>
+
+        <section id="form">
+            <h3 class="title">Pokemon'unu seç</h3>
+            <div class="your-pokemon">
+                <div class="form-left">
+                    <h4>Senin Pokemonun hangisi?</h4><br>
+                    <form action="#" method="post">
+                        <input type="radio" id="pokemon1" name="fav_pokemon" value="Bulbasaur">
+                            <label for="pokemon1">Bulbasaur</label><br> 
+                        <input type="radio" id="pokemon2" name="fav_pokemon" value="Charmander">
+                            <label for="pokemon2">Charmander</label><br>
+                        <input type="radio" id="pokemon3" name="fav_pokemon" value="Squirtle">
+                            <label for="pokemon3">Squirtle</label><br>
+                        <button type="submit" class="btn">Gönder</button>
+                    </form>
+                </div>                          
+                <div class="form-right">
+                    <form action="#" method="post">
+                        <label for="name">Adın:</label>
+                            <input type="text" id="name" name="name" required>
+                        <label for="email">E-mail Adresin:</label>
+                            <input type="email" name="email" id="email" required>
+                        <label for="message">Mesajın:</label>
+                            <textarea name="message" id="message" rows="2"></textarea>
+                        <button type="submit" class="btn">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </section>   
+    </main>
+
+    <footer>
+        <div id="contact">
+            <h2 class="title">İletişim</h2>
+            <p>Bizimle iletişime geçin: info@pokemon.com</p><br>
+            <p>&copy; 2023 Pokemon Çizgi Filmi</p>
+        </div>
+    </footer>
+</body>
+</html>
